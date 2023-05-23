@@ -1,0 +1,15 @@
+app:
+  name: rjac432-poi-backend-app
+  namespace: rjac432
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/rjac432-backend
+  org: Summit23Janus1
+  name: rjac432-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: rjac432/poi-backend-app
+  tag: latest
